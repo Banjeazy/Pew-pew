@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
 public class Simple {
+   
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        
         int top = scanner.nextInt();
 
         for (int i = 2; i < top; i++) {
@@ -31,6 +33,7 @@ public class Simple {
 
             if (i % n == 0 || i % (n + 2) == 0)
                 return false;
+            
             n = n + 6;
         }
         return true;
