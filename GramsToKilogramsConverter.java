@@ -9,3 +9,13 @@ public class GramsToKilogramsConverter {
         System.out.println("Килограмм: " +  kilograms);
       }
 }
+
+// Должно быть
+public class GramsToKilogramsConverter {
+    
+    public static double convertGramsToKg(double grams) {
+        double kilograms = grams * 0.001;
+        
+        return kilograms;
+    }
+}
