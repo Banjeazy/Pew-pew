@@ -1,6 +1,6 @@
-package Example;
+package com.tasks;
 
-public class StringUpperСase {
+public class StringUpperСaser {
 
     public static String convertStringUpperCase() {
         String word = "some word";

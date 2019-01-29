@@ -1,8 +1,9 @@
-package Example;
+package com.tasks;
 
 public class Runner {
 
     public static void main(String[] args){
-        String str = StringUpperСase.convertStringUpperCase();
+        String str = StringUpperСaser.convertStringUpperCase();
+        System.out.println(str);
     }
 }
