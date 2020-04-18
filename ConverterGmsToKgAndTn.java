@@ -8,13 +8,10 @@ public class ConverterGmsToKgAndTn {
 
     }
     public static double convertToKg(double gms){
-        double kg = gms * 0.001;
-        return kg;
+        return gms * 0.001;
     }
     public static double convertToTn(double gms){
-        double tn = gms * 0.000001;
-        return tn;
-
+        return gms * 0.000001;
     }
 
 }
